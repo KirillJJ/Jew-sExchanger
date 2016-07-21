@@ -47,4 +47,4 @@ def getInf(city):
     return jsonify(list)
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run()
